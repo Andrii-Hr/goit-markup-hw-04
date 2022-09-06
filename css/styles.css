@@ -445,7 +445,6 @@ gap: 30px;
 }
 
 .partners-number{
-background-color: var(--primary-bg-color);
 width: 170px;
 height: 92px;
 display: flex;
@@ -453,19 +452,18 @@ align-items: center;
 justify-content: center;
 border: 1px solid #AFB1B8;
 border-radius: 5px;
+background-color: var(--primary-bg-color);
 }
-.partners-list:hover .icons-partners,
-.partners-list:focus .icons-partners{
-fill:var(--accent-color);
-color: var(--accent-color);
 
-border-color: var(--accent-color);
+.partners-number:hover .icons-partners,
+.partners-number:focus .icons-partners{
+    fill:var(--accent-color);
 }
-.partners-list:hover,
-.partners-list:focus {
+.partners-number:hover,
+.partners-number:focus{
     border-color: var(--accent-color);
-    color: var(--accent-color);
 }
+
 .icons-partners{
 fill: var(--icon-color);
 }
